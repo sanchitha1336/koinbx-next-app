@@ -284,7 +284,7 @@ const Dashboard = () => {
       )}
 
       {activeTab === "hotList" && (
-        <div className="overflow-x-scroll mx-4 mb-4">
+        <div className="overflow-x-scroll mx-8 mb-4">
           <table className="w-full divide-y divide-gray-200">
             <thead className="bg-gray-50">
               <tr>
@@ -321,7 +321,7 @@ const Dashboard = () => {
         </div>
       )}
       {activeTab === "newList" && (
-        <div className="overflow-x-scroll mx-4 mb-4">
+        <div className="overflow-x-scroll mx-8 mb-4">
           <table className="w-full divide-y divide-gray-200">
             <thead className="bg-gray-50">
               <tr>
